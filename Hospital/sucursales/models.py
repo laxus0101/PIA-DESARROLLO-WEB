@@ -10,5 +10,5 @@ class Sucursales(models.Model):
     capacidad_pacientes = models.FloatField(),
     descripcion_servicios = models.CharField(max_length=60)
 
-def __str__(self):
-    return self.nombre_sucursal
+    def __str__(self):
+        return self.nombre_sucursal

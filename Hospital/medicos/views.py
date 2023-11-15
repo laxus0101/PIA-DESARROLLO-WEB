@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from .models import medicos
+
 # Create your views here.
 def medicos (request):
     return HttpResponse("<h1>Bienvenido a sitio de Medicos</h1>")
