@@ -1,2 +1,2 @@
 _pycache_/
-*sqlite3
+*.sqlite3
