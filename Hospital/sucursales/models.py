@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 
-class Sucursalesinfo(models.Model):
+class Sucursales(models.Model):
     nombre_sucursal = models.CharField(max_length=60,null=True)
     ubicacion = models.CharField(max_length=60,null=True)
     telefono =models.CharField(max_length=10,null=True)

@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Sucursalesinfo
+from .models import Sucursales
 
 # Register your models here.
-admin.site.register(Sucursalesinfo)
+admin.site.register(Sucursales)
