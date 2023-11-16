@@ -18,8 +18,6 @@ from django.contrib import admin
 from django.urls import path,include
 
 urlpatterns = [
-    path('',include('departamentos.urls')),
-    path('',include('sucursales.urls')),
-    path('',include('medicos.urls')),
+    path('pagina',include('pagina.urls')),
     path('admin/', admin.site.urls)
 ]

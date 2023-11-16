@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'pagina.apps.PaginaConfig',
     'departamentos.apps.DepartamentosConfig',
     'sucursales.apps.SucursalesConfig',
     'medicos.apps.MedicosConfig',
