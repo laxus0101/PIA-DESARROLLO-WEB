@@ -32,7 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'ambulancias.apps.AmbulanciasConfig'
+    'ambulancias.apps.AmbulanciasConfig',
     'pagina.apps.PaginaConfig',
     'departamentos.apps.DepartamentosConfig',
     'sucursales.apps.SucursalesConfig',
