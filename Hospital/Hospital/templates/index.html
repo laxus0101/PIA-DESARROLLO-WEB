@@ -4,6 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
+    <title>Document</title>
+</head>
+<body>
+    <a href="{% url "sucursales" %}">Ir a nosotros</a>
+
+    {% for sucursales in datos %}
+        <p>{{sucursales.nombre_sucursal}}</p>
+        <p>{{sucursales.ubicacion}}</p>
+        <p>{{sucursales.telefono}}</p>
+        <p>{{sucursales.capacidad_pacientes}}</p>
+        <p>{{sucursales.descripcion_servicios}}</p>
+    {% endfor %}
+
+=======
     <title>Konoha</title>
     <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
 </head>
@@ -18,5 +33,6 @@
             <a href=""></a>
         </section>
     </nav>
+>>>>>>> 0427a346f88c86189d5c71ff6f82763ad738f8c4
 </body>
 </html>
