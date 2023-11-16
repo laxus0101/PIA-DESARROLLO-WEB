@@ -10,10 +10,5 @@ def index(request):
     }
     return render(request,"index.html", context=info)
 
-def index(request):
-    return render(request,"index.html")
-
-def sucursales(request):
-    return render(request,"sucursales.html")
 
 
