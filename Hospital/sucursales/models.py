@@ -10,4 +10,8 @@ class Sucursalesinfo(models.Model):
     descripcion_servicios = models.CharField(max_length=60)
 
     def __str__(self):
+<<<<<<< HEAD
         return self.nombre_sucursal, self.ubicacion, self.telefono, self.capacidad_pacientes, self.descripcion_servicios
+=======
+        return self.nombre_sucursal
+>>>>>>> 0427a346f88c86189d5c71ff6f82763ad738f8c4
