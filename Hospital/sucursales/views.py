@@ -14,10 +14,6 @@ def index(request):
     return render(request,"index.html")
 
 def sucursales(request):
-<<<<<<< HEAD
     return render(request,"sucursales.html")
 
 
-=======
-    return HttpResponse("<h1>Bienvenido al hospital</h1>")
->>>>>>> 0427a346f88c86189d5c71ff6f82763ad738f8c4
